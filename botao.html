@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+      <meta charset="utf-8">
+
+      <style>
+        .menu ul li{
+          background-color: blue;
+          color:white;
+          float: left;
+          width: 200px;
+          height: 40px;
+          display: inline-block;
+          text-align: center;
+          line-height: 40px;
+        }
+
+        .menu ul li:hover{
+          background-color: aqua;
+        }  
+        .menu ul {
+          padding: 0px;
+        }
+
+        .menu ul ul{
+          display: none;
+        }
+
+        .menu ul li:hover > ul{
+          display: block;
+        }
+
+
+      
+      </style>
+
+  </head>
+  <body>
+      <nav class="menu">
+          <ul>
+            
+            <li><a href="#"><img class="imagem-login" src="_imagem/logout.png" alt="">
+                <ul>
+                  <li>Perfil</li>
+                  <li>trocar usuario</li>
+                  <li>Perfil</li>
+                  <li>trocar usuario</li>
+                </ul>
+              </a></li>
+            
+          </ul>
+
+
+
+      </nav>
+    
+  </body>  
+</html>
